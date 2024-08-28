@@ -44,6 +44,8 @@ bool operator >>(ifstream &arch, struct Cliente &cli){
     arch.getline(nom,80,'\n');
     cli.dni=dni;
     strcpy(cli.nombre,nom);
+    cli.cantDeLibros=0;
+    cli.pagoTotal=0;
     return true;
 }
 
@@ -75,7 +77,9 @@ bool operator <<(struct Cliente &cli,struct LibroSolicitado &lib){
 
 void operator ++(struct Cliente &cli){
     for (int i = 0; i < cli.cantDeLibros; i++) {
-         cli.pagoTotal += cli.librosSolicitados[i].precio;
+        if(cli.librosSolicitados[i].atendido){
+            cli.pagoTotal += cli.librosSolicitados[i].precio;
+        }
     }
 }
 
@@ -89,10 +93,19 @@ void operator <<(ofstream &arch,const struct Cliente &cli){
     arch<<"Libros entregados:"<<endl;
     arch<<left<<setw(10)<<" "<<setw(16)<<"Pedido No."<<setw(12)<<"Codigo"<<"Precio"<<endl;
     for (int i = 0; i < cli.cantDeLibros; i++) {
+        if(cli.librosSolicitados[i].atendido){
             arch<<left<<setw(10)<<" "<<setw(14)<<cli.librosSolicitados[i].numeroDePedido
-                    <<setw(12)<<cli.librosSolicitados[i].codigoDelLibro<<
-                    cli.librosSolicitados[i].precio<<endl;
-
+                <<setw(12)<<cli.librosSolicitados[i].codigoDelLibro<<
+                cli.librosSolicitados[i].precio<<endl;
+        }
+    }
+    arch<<"Total a pagar: "<<cli.pagoTotal<<endl;
+    for (int i = 0; i < cli.cantDeLibros; i++) {
+        if(!cli.librosSolicitados[i].atendido){
+            arch<<left<<setw(10)<<" "<<setw(14)<<cli.librosSolicitados[i].numeroDePedido
+                <<setw(12)<<cli.librosSolicitados[i].codigoDelLibro<<
+                cli.librosSolicitados[i].precio<<endl;            
+        }
 
     }
 
