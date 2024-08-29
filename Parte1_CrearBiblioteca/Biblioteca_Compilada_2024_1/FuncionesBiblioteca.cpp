@@ -56,9 +56,11 @@ bool operator >>(struct LibroSolicitado &lib,struct Libro *&arrlib){
                 arrlib[i].stock--;
                 lib.precio=arrlib[i].precio;
                 lib.atendido=true;
+                return true;
             }
             else{
                 lib.atendido=false;
+                return false;
             }
         }
     }

@@ -1,0 +1,355 @@
+54393647    Reyes Tang Edward                                           
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          13            UCJ9882     54.97
+          86            BSX2922     146.19
+Total a pagar: 256.13
+67066631    Arca Amezquita Edric Ronald                                 
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          35            JZC7527     147.44
+Total a pagar: 147.44
+32231860    Cerna Hijar Jose Rolando                                    
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          19            DDQ0721     250.24
+Total a pagar: 250.24
+14500753    Delgado Gonzales Guillermo Alfonso                          
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          66            ALH8812     296.1
+          116           JLQ6546     48.76
+          120           LDL2628     140.97
+Total a pagar: 1126.79
+26916299    Chung Lee Alvaro                                            
+Libros entregados:
+          Pedido No.      Codigo      Precio
+Total a pagar: 0
+87804471    Diaz Antezano Magali Silvana                                
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          42            JXK3142     104.88
+          51            ELC8965     13.46
+          64            RNG2321     238.45
+          87            VPN5351     182.76
+Total a pagar: 1119.56
+81462164    Fernandez Ortega Elizabeth Elizabeth                        
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          59            EZP0333     96.07
+          65            CMP1150     19.5
+          95            ULM8751     131.62
+          110           KVL6246     265.01
+Total a pagar: 971.03
+37500242    Pinto Calixto Shirley                                       
+Libros entregados:
+          Pedido No.      Codigo      Precio
+Total a pagar: 0
+45834351    Santisteban Meza Rosa                                       
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          26            VFZ9435     96.28
+Total a pagar: 96.28
+35030611    Cabrera Luna Shirley Isabel                                 
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          53            HRT0664     76.33
+          75            ZLE2920     208.38
+Total a pagar: 361.04
+81082011    Shirakawa Ortega Angel                                      
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          52            JXK3142     104.88
+          90            QRH6838     162.37
+          124           HPP3360     12.72
+Total a pagar: 652.1
+92240876    Mejia Diaz Blanca Milagros                                  
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          22            BTX3816     232.71
+          41            SMI7078     148.98
+          79            KWL0415     78.57
+          121           QCA9584     168.95
+Total a pagar: 1703.87
+45181396    Cerna Durand Martin                                         
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          72            SFZ1256     154.35
+          98            KLO8691     134.66
+Total a pagar: 443.36
+45002711    Landeo Sueldo Adolfo                                        
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          43            DPZ8059     159.18
+Total a pagar: 159.18
+96056368    Raffo Chung Adria Gloria                                    
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          32            GOG7446     230.55
+Total a pagar: 230.55
+38724322    Inga Flores Cesar Adolfo                                    
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          17            RSK1164     91.91
+          113           WCZ0845     154
+Total a pagar: 337.82
+60740809    Lozada Yino Martha                                          
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          9             XTM9385     155.79
+          83            DDU0764     39.2
+Total a pagar: 350.78
+49516360    Mendoza Egusquiza Rosario                                   
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          68            PQZ1316     110.29
+          101           NBL8415     252
+          118           EBT7258     201.06
+Total a pagar: 1035.93
+34460612    Morales Valverde Ines Martha                                
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          1             CRY6839     159.1
+          3             PQZ1316     110.29
+          58            SFR1226     193.39
+          96            CKC4095     32.4
+Total a pagar: 1386.45
+11750801    Raffo Arias Surami Annie                                    
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          18            KGO1734     47.9
+          45            WYE2119     90.66
+          70            KLV1872     185.25
+          125           GQC1814     1.08
+Total a pagar: 835.16
+85870289    Paredes Patino Christian                                    
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          56            HPP3360     12.72
+          122           SFZ1256     154.35
+Total a pagar: 179.79
+20449598    Velasquez Huayanay Edgard Henry                             
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          36            NEW1762     296.53
+Total a pagar: 296.53
+72832218    Vega Garcia Janet Rebeca                                    
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          10            HWM4049     201.21
+          46            SQB7146     83.99
+          103           KWL0415     78.57
+Total a pagar: 850.18
+66747161    Vasquez Paz Alex Martin                                     
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          24            KGO1734     47.9
+          74            RII8346     69.63
+Total a pagar: 165.43
+88080249    Coronel Chumpitaz Heli                                      
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          55            NEO9165     234.34
+          89            SQB7146     83.99
+Total a pagar: 552.67
+61212473    Forzani Caro Alonso                                         
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          54            JGG5049     138.03
+Total a pagar: 138.03
+21344013    Aquino Toro Valentina Rocio                                 
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          31            PCS8992     80.07
+          40            ZQD4253     113.13
+          73            QQQ4712     249.38
+Total a pagar: 715.85
+76693511    Laura Wong Melvin Henrry                                    
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          115           BUY4915     72.44
+Total a pagar: 72.44
+79743481    Salas Aguero Daniel                                         
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          67            EJE8138     294.05
+Total a pagar: 294.05
+61039260    Cerna Pairazaman Fiorella Margot                            
+Libros entregados:
+          Pedido No.      Codigo      Precio
+Total a pagar: 0
+14142586    Piscoya Bravo Cesar Bruno                                   
+Libros entregados:
+          Pedido No.      Codigo      Precio
+Total a pagar: 0
+36699613    Mejia De La Haza Francisco Edgar                            
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          7             SMW0186     144.22
+Total a pagar: 144.22
+14268463    Diaz Correa Irma Virginia                                   
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          25            FYV9055     147.76
+          48            BZY0235     55.75
+          88            IFL0150     35.64
+          93            ETZ8565     175.68
+          127           BHD6079     86.71
+Total a pagar: 1506.79
+33958767    Perez Farfan Richard Sandro                                 
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          34            CRY6839     159.1
+          44            LRV5687     7.82
+Total a pagar: 326.02
+86898639    Pasquel Quio Surami Janet                                   
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          20            XIU2628     34.25
+          33            DEK2757     61.18
+Total a pagar: 129.68
+20610190    Auris Zimic Javier Daniel                                   
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          50            JZC7527     147.44
+Total a pagar: 147.44
+65071478    Arroyo Gordillo Maria Heli                                  
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          16            RWW7975     251.27
+          23            FYV9055     147.76
+          69            IPE3429     69.56
+          111           WOF6634     174.46
+Total a pagar: 1761.94
+63602514    Shirakawa Miranda Madeleine                                 
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          81            KPE7420     288.51
+Total a pagar: 288.51
+51235238    Prado Falcon Edgar Richard                                  
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          8             ZAL2738     107.8
+          123           JZQ8143     60.51
+Total a pagar: 276.11
+37751890    Romero Palomares Gloria Tatiana                             
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          5             KWL0415     78.57
+          30            HGQ0131     62.13
+          63            CRY6839     159.1
+          76            JBR9372     1.94
+          91            BTX3816     232.71
+          92            HPM0950     103.01
+          106           HPM0950     103.01
+Total a pagar: 2733.19
+46582367    Justino Forzani Ericka Victoria                             
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          4             IIM5175     30.23
+          78            EBT7258     201.06
+Total a pagar: 261.52
+27109544    Henriquez Espino Beatriz                                    
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          15            WWT1581     15.88
+          60            FNM6936     279.18
+Total a pagar: 310.94
+17750908    Chumpitaz Iberos Ronal                                      
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          27            QBL9575     287.51
+          109           IUG2294     129.1
+          119           USE5598     212.47
+Total a pagar: 1333.2
+66152145    Hernandez Barrios Emilio                                    
+Libros entregados:
+          Pedido No.      Codigo      Precio
+Total a pagar: 0
+42302422    Maldonado Ramirez Silvana                                   
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          2             WPU8819     59.08
+          28            YZV6954     61.22
+          97            TAB4639     26.91
+          108           QBL9575     287.51
+Total a pagar: 761.31
+37328103    Palomares Vera Henrry Humberto                              
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          71            EZP0333     96.07
+          102           MBQ9495     202.58
+          117           CST1133     31.4
+Total a pagar: 724.77
+48053960    Corrales Tsukazan Irma Lourdes                              
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          126           VFZ9435     96.28
+Total a pagar: 96.28
+83265244    Wong Martel Madeleine                                       
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          57            JZU0977     179.82
+          80            BXE0974     44.79
+          104           PZP7176     15.93
+Total a pagar: 644.97
+50860318    Salazar Corrales Lorena Irma                                
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          114           UDS2730     160.51
+Total a pagar: 160.51
+87570336    Pairazaman Alamo Moises Miguel                              
+Libros entregados:
+          Pedido No.      Codigo      Precio
+Total a pagar: 0
+47659552    Prado Vergel Carlos Julian                                  
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          11            QMI4747     189.13
+          21            XIU6076     232.77
+          39            YJI3961     99.35
+          82            NGQ6935     104.53
+          112           HPP3360     12.72
+Total a pagar: 2396.56
+57431952    Castro Suarez Rolando                                       
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          84            DVL7760     98.18
+          99            VSG3432     220.82
+          100           JZQ8143     60.51
+          107           CRR5443     35.5
+Total a pagar: 1211.7
+58717040    Cabrera Canales Guillermo Edric                             
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          85            FBO8724     104.07
+          105           YZV6954     61.22
+Total a pagar: 269.36
+33583840    Villa Yallico Tatiana Nancy                                 
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          14            KSX7995     157.98
+          94            RWW7975     251.27
+Total a pagar: 567.23
+15129661    Valverde Flores Irma Ydali                                  
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          37            JSM8271     29.6
+          47            WOF6634     174.46
+Total a pagar: 233.66
+65830353    Caro Polo Sandro                                            
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          29            TOJ1764     154.27
+          62            GWE4133     298.03
+          77            XIU2628     34.25
+Total a pagar: 1093.12
+69200503    Norabuena Preciado Cinthia                                  
+Libros entregados:
+          Pedido No.      Codigo      Precio
+          6             CPE5718     254.78
+          12            DVL7760     98.18
+          38            JXK3142     104.88
+          49            GKG6581     100.33
+          61            WYE2119     90.66
+Total a pagar: 2272.58

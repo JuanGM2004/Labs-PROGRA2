@@ -18,6 +18,8 @@
 void LeerLibros(struct Libro *arrLib);
 void LeerClientes(struct Cliente *arrCli);
 void LeePedidos(const char*nombArch,struct Cliente *arrcli,struct Libro *arrLib);
+int Buscar(int dni,const struct Cliente *arrcli);
+void EmitirReporte(const char*nomb,const struct Cliente *arrCli);
 
 
 #endif /* FUNCIONESAUXILIARES_H */

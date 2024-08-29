@@ -31,6 +31,7 @@ int main(int argc, char** argv) {
     LeerLibros(arrLib);
     LeerClientes(arrCli);
     LeePedidos("Pedidos.txt",arrCli,arrLib);
+    EmitirReporte("Reporte de ventas.txt",arrCli);
     
     return 0;
 }

@@ -33,6 +33,7 @@ void LeerClientes(struct Cliente *arrCli){
         exit(1);
     }
     while(archCli>>arrCli[cantCli])cantCli++;
+    arrCli[cantCli].dni=0;
 }
 
 void LeePedidos(const char*nombArch, struct Cliente *arrcli, struct Libro *arrLib){
@@ -42,16 +43,64 @@ void LeePedidos(const char*nombArch, struct Cliente *arrcli, struct Libro *arrLi
         exit(1);
     }
     
-    int nro,dni;
+    int nro,dni,pos;
     char cod[8];
-    
+    struct LibroSolicitado pedido;
     while(true){
         arch>>nro;
         if(arch.eof())break;
         arch.get();
         arch>>dni;
         arch.get();
-//        pos=Buscar
+        pos=Buscar(dni,arrcli);
+        if(pos!=-1){
+            while(true){
+                arch>>cod;
+                strcpy(pedido.codigoDelLibro,cod);
+                pedido.numeroDePedido=nro;
+                if(pedido>>arrLib){
+                    if((arrcli[pos]<<pedido)){
+                        ++arrcli[pos];
+                        while(arch.get()!='\n');
+                        break;
+                    }
+                }
+                else{
+                    if(arrcli[pos]<<pedido){
+                        cout<<"hola"<<endl;
+                    }
+                }
+
+                if(arch.get()=='\n')break;
+            }            
+        }
+        else{
+            while(arch.get()!='\n');
+        }
+
     }
     
 }
+
+int Buscar(int dni,const struct Cliente *arrcli){
+    for (int i = 0;arrcli[i].dni; i++) {
+        if(arrcli[i].dni==dni) return i;
+
+    }
+    return -1;
+}
+
+void EmitirReporte(const char*nomb,const struct Cliente *arrCli){
+    ofstream archRep(nomb,ios::out);
+    if(not archRep.is_open()){
+        cout<<"No se pudo abrir el archivo "<<nomb<<endl;
+        exit(1);
+    }
+    for (int i = 0;arrCli[i].dni; i++) {
+        archRep<<arrCli[i];
+
+    }
+
+    
+}
+
