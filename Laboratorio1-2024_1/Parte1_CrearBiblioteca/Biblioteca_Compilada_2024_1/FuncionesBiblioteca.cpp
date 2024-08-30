@@ -70,18 +70,14 @@ bool operator >>(struct LibroSolicitado &lib,struct Libro *&arrlib){
 bool operator <<(struct Cliente &cli,struct LibroSolicitado &lib){
     if(cli.cantDeLibros<30){
         cli.librosSolicitados[cli.cantDeLibros]=lib;
-        cli.cantDeLibros++;
         return true;
     }
     return false;
 }
 
 void operator ++(struct Cliente &cli){
-    for (int i = 0; i < cli.cantDeLibros; i++) {
-        if(cli.librosSolicitados[i].atendido){
-            cli.pagoTotal += cli.librosSolicitados[i].precio;
-        }
-    }
+    cli.pagoTotal += cli.librosSolicitados[cli.cantDeLibros].precio;
+    cli.cantDeLibros++;
 }
 
 void operator <<(ofstream &arch,const struct Libro &lib){
