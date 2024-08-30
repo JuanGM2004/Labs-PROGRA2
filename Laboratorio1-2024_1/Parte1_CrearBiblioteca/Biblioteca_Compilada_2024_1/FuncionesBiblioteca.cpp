@@ -6,6 +6,7 @@
 #include <fstream>
 #include <cstring>
 #include <iomanip>
+#include <iostream>
 
 using namespace std;
 #include "Estructuras.h"
@@ -95,10 +96,15 @@ void operator <<(ofstream &arch,const struct Cliente &cli){
                 <<setw(12)<<cli.librosSolicitados[i].codigoDelLibro<<
                 cli.librosSolicitados[i].precio<<endl;
         }
+//        else{
+//            arch<<"No se puede entregar"<<endl;
+//        }
     }
     arch<<"Total a pagar: "<<cli.pagoTotal<<endl;
+    arch<<"Libros no entregados:"<<endl;
     for (int i = 0; i < cli.cantDeLibros; i++) {
-        if(!cli.librosSolicitados[i].atendido){
+        if(!(cli.librosSolicitados[i].atendido)){
+            cout<<"hola"<<endl;
             arch<<left<<setw(10)<<" "<<setw(14)<<cli.librosSolicitados[i].numeroDePedido
                 <<setw(12)<<cli.librosSolicitados[i].codigoDelLibro<<
                 cli.librosSolicitados[i].precio<<endl;            

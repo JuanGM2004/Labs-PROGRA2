@@ -56,27 +56,15 @@ void LeePedidos(const char*nombArch, struct Cliente *arrcli, struct Libro *arrLi
         if(pos!=-1){
             while(true){
                 arch>>cod;
+                if(arch.get()=='\n')break;
                 strcpy(pedido.codigoDelLibro,cod);
                 pedido.numeroDePedido=nro;
                 if((pedido>>arrLib)){
                     if((arrcli[pos]<<pedido)){
                         ++arrcli[pos];
                     }
-//                    else{
-//                        while(arch.get()!='\n');
-//                        break;
-//                    }
                 }
-////                else{
-////                    arrcli[pos]<<pedido;
-////                }
-//                else{
-//                    if(arrcli[pos]<<pedido){
-//                        cout<<"hola"<<endl;
-//                    }
-//                }
-
-                if(arch.get()=='\n')break;
+                else arrcli[pos]<<pedido;
             }            
         }
         else{
