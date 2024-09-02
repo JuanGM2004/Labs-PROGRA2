@@ -56,15 +56,17 @@ void LeePedidos(const char*nombArch, struct Cliente *arrcli, struct Libro *arrLi
         if(pos!=-1){
             while(true){
                 arch>>cod;
-                if(arch.get()=='\n')break;
+                
                 strcpy(pedido.codigoDelLibro,cod);
                 pedido.numeroDePedido=nro;
-                if((pedido>>arrLib)){
-                    if((arrcli[pos]<<pedido)){
+                if(arrcli[pos]<<pedido){
+                    int cant=arrcli[pos].cantDeLibros;
+                    if(arrcli[pos].librosSolicitados[cant]>>arrLib){
                         ++arrcli[pos];
                     }
+                    arrcli[pos].cantDeLibros++;
                 }
-                else arrcli[pos]<<pedido;
+                if(arch.get()=='\n')break;
             }            
         }
         else{

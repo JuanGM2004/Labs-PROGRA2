@@ -76,9 +76,9 @@ bool operator <<(struct Cliente &cli,struct LibroSolicitado &lib){
     return false;
 }
 
-void operator ++(struct Cliente &cli){
-    cli.pagoTotal += cli.librosSolicitados[cli.cantDeLibros].precio;
-    cli.cantDeLibros++;
+void operator ++(struct Cliente &cli){   
+    if(cli.librosSolicitados[cli.cantDeLibros].atendido)cli.pagoTotal += 
+            cli.librosSolicitados[cli.cantDeLibros].precio;
 }
 
 void operator <<(ofstream &arch,const struct Libro &lib){
@@ -103,11 +103,10 @@ void operator <<(ofstream &arch,const struct Cliente &cli){
     arch<<"Total a pagar: "<<cli.pagoTotal<<endl;
     arch<<"Libros no entregados:"<<endl;
     for (int i = 0; i < cli.cantDeLibros; i++) {
-        if(!(cli.librosSolicitados[i].atendido)){
-            cout<<"hola"<<endl;
-            arch<<left<<setw(10)<<" "<<setw(14)<<cli.librosSolicitados[i].numeroDePedido
-                <<setw(12)<<cli.librosSolicitados[i].codigoDelLibro<<
-                cli.librosSolicitados[i].precio<<endl;            
+        if(not (cli.librosSolicitados[i].atendido)){
+//            cout<<"hola"<<endl;
+            arch<<left<<setw(14)<<cli.librosSolicitados[i].numeroDePedido
+                <<setw(12)<<cli.librosSolicitados[i].codigoDelLibro<<endl;            
         }
 
     }

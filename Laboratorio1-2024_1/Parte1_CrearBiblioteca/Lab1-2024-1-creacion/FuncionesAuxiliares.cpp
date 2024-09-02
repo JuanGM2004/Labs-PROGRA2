@@ -6,10 +6,10 @@
 #include <fstream>
 #include <cstring>
 #include <iomanip>
+#include <iostream>
 
 using namespace std;
 #include "Estructuras.h"
-
 
 bool operator >>(ifstream &arch, struct Libro &lib){
     char cod[10],titu[80],autor[80];
@@ -57,9 +57,11 @@ bool operator >>(struct LibroSolicitado &lib,struct Libro *&arrlib){
                 arrlib[i].stock--;
                 lib.precio=arrlib[i].precio;
                 lib.atendido=true;
+                return true;
             }
             else{
                 lib.atendido=false;
+                return false;
             }
         }
     }
@@ -69,18 +71,14 @@ bool operator >>(struct LibroSolicitado &lib,struct Libro *&arrlib){
 bool operator <<(struct Cliente &cli,struct LibroSolicitado &lib){
     if(cli.cantDeLibros<30){
         cli.librosSolicitados[cli.cantDeLibros]=lib;
-        cli.cantDeLibros++;
         return true;
     }
     return false;
 }
 
-void operator ++(struct Cliente &cli){
-    for (int i = 0; i < cli.cantDeLibros; i++) {
-        if(cli.librosSolicitados[i].atendido){
-            cli.pagoTotal += cli.librosSolicitados[i].precio;
-        }
-    }
+void operator ++(struct Cliente &cli){   
+    if(cli.librosSolicitados[cli.cantDeLibros].atendido)cli.pagoTotal += 
+            cli.librosSolicitados[cli.cantDeLibros].precio;
 }
 
 void operator <<(ofstream &arch,const struct Libro &lib){
@@ -98,16 +96,21 @@ void operator <<(ofstream &arch,const struct Cliente &cli){
                 <<setw(12)<<cli.librosSolicitados[i].codigoDelLibro<<
                 cli.librosSolicitados[i].precio<<endl;
         }
+//        else{
+//            arch<<"No se puede entregar"<<endl;
+//        }
     }
     arch<<"Total a pagar: "<<cli.pagoTotal<<endl;
+    arch<<"Libros no entregados:"<<endl;
     for (int i = 0; i < cli.cantDeLibros; i++) {
-        if(!cli.librosSolicitados[i].atendido){
-            arch<<left<<setw(10)<<" "<<setw(14)<<cli.librosSolicitados[i].numeroDePedido
-                <<setw(12)<<cli.librosSolicitados[i].codigoDelLibro<<
-                cli.librosSolicitados[i].precio<<endl;            
+        if(not (cli.librosSolicitados[i].atendido)){
+//            cout<<"hola"<<endl;
+            arch<<left<<setw(14)<<cli.librosSolicitados[i].numeroDePedido
+                <<setw(12)<<cli.librosSolicitados[i].codigoDelLibro<<endl;            
         }
 
     }
 
 }
+
 
