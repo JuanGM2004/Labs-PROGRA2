@@ -31,6 +31,10 @@ int main(int argc, char** argv) {
     lecturaDeLibros("Libros.csv",libros,stock);
     pruebaDeLecturaDeLibros("ReporteDeLibrosInicial.txt",libros,stock);
     
+    atencionePedidos("Pedidos.txt",libros,stock,pedidosClientes,pedidosLibros,pedidosAtendidos);
+    pruebaDeLecturaDeLibros("ReporteDeLibrosFinal.txt",libros,stock);
+    reporteDeEntregaDePedidos("ReporteDeEntregaDePedidos.txt",pedidosClientes,pedidosLibros
+            ,pedidosAtendidos);
     
     return 0;
 }
